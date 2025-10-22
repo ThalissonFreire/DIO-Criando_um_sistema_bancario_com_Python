@@ -1,0 +1,56 @@
+[
+    {
+        "label": "menu",
+        "kind": 5,
+        "importPath": "modelo",
+        "description": "modelo",
+        "peekOfCode": "menu = \"\"\"\n    [1] - Depositar\n    [2] - Sacar\n    [3] - Extrato\n    [4] - Sair\n=> \"\"\"\nsaldo = 0\nlimite = 500\nextrato = \"\"\nnumero_saques = 0",
+        "detail": "modelo",
+        "documentation": {}
+    },
+    {
+        "label": "saldo",
+        "kind": 5,
+        "importPath": "modelo",
+        "description": "modelo",
+        "peekOfCode": "saldo = 0\nlimite = 500\nextrato = \"\"\nnumero_saques = 0\nLIMITE_SAQUES = 3\nwhile True:\n    opcao = input(menu)\n    if opcao == \"1\":\n        print(\"Opção selecionada: Depósito\\n\")\n        try:",
+        "detail": "modelo",
+        "documentation": {}
+    },
+    {
+        "label": "limite",
+        "kind": 5,
+        "importPath": "modelo",
+        "description": "modelo",
+        "peekOfCode": "limite = 500\nextrato = \"\"\nnumero_saques = 0\nLIMITE_SAQUES = 3\nwhile True:\n    opcao = input(menu)\n    if opcao == \"1\":\n        print(\"Opção selecionada: Depósito\\n\")\n        try:\n            valor_deposito = float(input(\"Informe o valor a ser depositado: \\n=> R$ \"))",
+        "detail": "modelo",
+        "documentation": {}
+    },
+    {
+        "label": "extrato",
+        "kind": 5,
+        "importPath": "modelo",
+        "description": "modelo",
+        "peekOfCode": "extrato = \"\"\nnumero_saques = 0\nLIMITE_SAQUES = 3\nwhile True:\n    opcao = input(menu)\n    if opcao == \"1\":\n        print(\"Opção selecionada: Depósito\\n\")\n        try:\n            valor_deposito = float(input(\"Informe o valor a ser depositado: \\n=> R$ \"))\n        except ValueError:",
+        "detail": "modelo",
+        "documentation": {}
+    },
+    {
+        "label": "numero_saques",
+        "kind": 5,
+        "importPath": "modelo",
+        "description": "modelo",
+        "peekOfCode": "numero_saques = 0\nLIMITE_SAQUES = 3\nwhile True:\n    opcao = input(menu)\n    if opcao == \"1\":\n        print(\"Opção selecionada: Depósito\\n\")\n        try:\n            valor_deposito = float(input(\"Informe o valor a ser depositado: \\n=> R$ \"))\n        except ValueError:\n            print(\"Operação não realizada! O valor informado é inválido.\")",
+        "detail": "modelo",
+        "documentation": {}
+    },
+    {
+        "label": "LIMITE_SAQUES",
+        "kind": 5,
+        "importPath": "modelo",
+        "description": "modelo",
+        "peekOfCode": "LIMITE_SAQUES = 3\nwhile True:\n    opcao = input(menu)\n    if opcao == \"1\":\n        print(\"Opção selecionada: Depósito\\n\")\n        try:\n            valor_deposito = float(input(\"Informe o valor a ser depositado: \\n=> R$ \"))\n        except ValueError:\n            print(\"Operação não realizada! O valor informado é inválido.\")\n            continue",
+        "detail": "modelo",
+        "documentation": {}
+    }
+]
